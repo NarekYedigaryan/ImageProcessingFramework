@@ -1,0 +1,29 @@
+{
+  "Plugins": [
+    {
+      "Name": "ResizeEffect",
+      "Type": "ImageProcessingFramework.Effects.ResizeEffect, ImageProcessingFramework",
+      "Parameters": {
+        "Width": 100,
+        "Height": 100
+      }
+    },
+    {
+      "Name": "BlurEffect",
+      "Type": "ImageProcessingFramework.Effects.BlurEffect, ImageProcessingFramework",
+      "Parameters": {
+        "Radius": 2
+      }
+    },
+    {
+      "Name": "GrayscaleEffect",
+      "Type": "ImageProcessingFramework.Effects.GrayscaleEffect, ImageProcessingFramework",
+      "Parameters": {}
+    },
+    {
+      "Name": "BrowseEffect",
+      "Type": "ImageProcessingFramework.Effects.BrowseEffect, ImageProcessingFramework",
+      "Parameters": {}
+    }
+  ]
+}
